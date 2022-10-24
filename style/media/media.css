@@ -1,0 +1,59 @@
+@media(max-width: 1434px){
+	.basic__content{
+
+	margin-left: 50px;
+
+}
+}
+@media(max-width: 1388px){
+	.basic__content{
+
+	margin-left: 15px;
+
+}
+.img__arrow{
+	display: none;
+}
+.pages{
+	padding:0px;
+}
+.logo__sideBar img{
+	max-width: 120px;
+
+}
+.logo__sideBar{
+	display: block;
+	margin-right: auto;
+}
+
+}
+@media(max-width: 1300px){
+
+	.search__database{
+		display: block;
+	}
+	.down__block__dataBase{
+		display: block;
+	}
+	.line__number,.line__mail,.line__country,
+.line__status,.line__company{
+	margin-left: 30px;
+}
+}
+@media(max-width: 1225px){
+	.sideBar{
+		display: flex;
+		justify-content: center;
+	}
+	.line__nameDatabase{
+		display: block;
+	}
+	.basic__block{
+		display: flex;
+		justify-content: center;
+	}
+	.line__number,.line__mail,.line__country,
+.line__status,.line__company{
+	margin-left: 0px;
+}
+}
